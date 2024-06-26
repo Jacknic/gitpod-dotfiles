@@ -19,4 +19,4 @@ yes | sdkmanager --update
 
 echo 'export \n' "ANDROID_HOME=$ANDROID_HOME" \
     "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT" \
-    "${PATH}:${CMD_TOOLS_DIR}/latest/bin" >>$HOME/.bashrc.d/100-android
+    "PATH=${PATH}:${CMD_TOOLS_DIR}/latest/bin" >>$HOME/.bashrc.d/100-android
